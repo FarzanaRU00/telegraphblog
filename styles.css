@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(75, 125, 218);
+    margin: auto;
+}
+
+.blogTitle {
+    font-size: 40px;
+    color: rgb(229, 201, 230);
+    padding-left: 1%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#title, #name, #post {
+    background: transparent;
+    outline: none;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    color: rgb(227, 236, 93);
+    width: 100%;
+    padding-left: 1%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5%;
+}
+
+::placeholder {
+    color: white;
+    font-size: 25px;
+}
+
+#Publish {
+    background: transparent;
+    font-size: 15px;
+    border: solid 1px;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+
+#Publish:hover {
+    color: rgb(0, 153, 255);
+    background-color: rgb(250, 250, 153);
+}
