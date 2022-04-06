@@ -1,0 +1,27 @@
+{
+  "name": "telegraphblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dbConfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarzanaRU00/telegraphblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarzanaRU00/telegraphblog/issues"
+  },
+  "homepage": "https://github.com/FarzanaRU00/telegraphblog#readme",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
