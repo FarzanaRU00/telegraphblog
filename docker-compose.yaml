@@ -21,7 +21,7 @@ services:
       - PGUSER=postsUser
       - PGHOST=db
       - PGPASSWORD=password
-      - PGDATABASE=journal
+      - PGDATABASE=anonentriesdb
       - PGPORT=5432
     depends_on:
       - db
@@ -31,7 +31,7 @@ services:
         target: /code
     command: bash -c "npm install && npm run dev"
   db:
-    container_name: anonblog
+    container_name: anonentries
     image: postgres:latest
 
     environment:
