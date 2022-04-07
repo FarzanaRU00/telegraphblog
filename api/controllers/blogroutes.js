@@ -24,7 +24,7 @@ router.post('/', async (req,res) => {
 })
 
 // show the route for blogs
-router.get('/id', async (req, res) => {
+router.get('/:id', async (req, res) => {
     try {
         const blogs = await Blogs.findById(parseInt(req.params.id))
         res.json(blogs)
