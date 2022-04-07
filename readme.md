@@ -1,5 +1,5 @@
 ## Table of Contents
-[Introduction to our api](#Anonymous-Entries)  
+[Introduction to Our Project](#Anonymous-Entries)  
 [Installation](#Installation)  
 [Usage](#Usage)  
 [API](#API)
